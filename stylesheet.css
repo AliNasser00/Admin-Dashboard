@@ -46,6 +46,7 @@ h2{
 .home:hover{
     cursor: pointer;
     background-color: #001416;
+    scale: 1.005;
 }
 #sideicon{
     height: 20px;
@@ -58,6 +59,8 @@ h2{
     gap: 30px;
     height: 35px;
     padding-left: 20px;
+    border-radius: 15px;
+    transition: 0.2s;
 
 }
 h3{
@@ -73,4 +76,111 @@ h3{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.mainContent{
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+.header{
+    background-color: #AFDDE5;
+    border-bottom:5px solid #638c94;
+    display: flex;
+    flex-direction: column;
+}
+.lowerContent{
+    background-color: #964734;
+}
+.upperHeader{
+    display: flex;
+    gap: 10px;
+}
+#searchicon{
+    height: 30px;
+    width: 30px;
+    filter:  invert(15%) sepia(13%) saturate(4754%) hue-rotate(145deg) brightness(96%) contrast(103%);
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    padding-top: 20px;
+    gap: 10px;
+}
+input{
+    border: none;
+    background-color:#c7715c;
+    border-radius: 20px;
+    height: 25px;
+    width: 450px;
+}
+#bell{
+    height: 30px;
+    width: 30px;
+    filter:  invert(15%) sepia(13%) saturate(4754%) hue-rotate(145deg) brightness(96%) contrast(103%);
+    cursor: pointer;
+
+}
+#meme{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 15px;
+    padding-top: 20px;
+
+}
+h4{
+    cursor: pointer;
+}
+#memelower{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.lowerHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.leftlowerheader{
+    display: flex;
+    padding-left: 60px;
+    padding-top: 50px;
+}
+.rightlowerheader{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 130px;
+    padding-top: 50px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: #964734;
+    color: white;
+    cursor: pointer;
+    transition: 0.1s;
+}
+button:hover{
+    background-color: #6b3021;
+}
+.headertext{
+    text-align: center;
+    color: #964734;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 10px;
+    cursor: pointer;
 }
