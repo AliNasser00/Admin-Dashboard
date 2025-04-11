@@ -12,6 +12,7 @@ html body{
     width: 100vw;
     display: grid;
     grid-template-columns: 25% 75%;
+    font-family: "Roboto";
 }
 .nav{
     background-color: #003135;
