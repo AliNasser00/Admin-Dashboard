@@ -100,6 +100,9 @@ h3{
     filter:  invert(15%) sepia(13%) saturate(4754%) hue-rotate(145deg) brightness(96%) contrast(103%);
     cursor: pointer;
 }
+#searchicon:hover{
+    scale: 1.1;
+}
 .search{
     display: flex;
     align-items: center;
@@ -114,6 +117,9 @@ input{
     height: 25px;
     width: 450px;
 }
+input:focus{
+    scale: 1.05;
+}
 #bell{
     height: 30px;
     width: 30px;
@@ -121,11 +127,18 @@ input{
     cursor: pointer;
 
 }
+#bell:hover{
+    scale: 1.1;
+
+}
 #meme{
     height: 35px;
     width: 35px;
     border-radius: 50%;
     cursor: pointer;
+}
+#meme:hover{
+    scale: 1.1;
 }
 .toggle{
     display: flex;
