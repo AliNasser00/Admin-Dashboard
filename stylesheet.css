@@ -213,6 +213,29 @@ button:hover{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.side{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 15px;
+    gap: 15px;
+
+}
+.cardside{
+    background-color: #AFDDE5;
+    border-radius: 12px;
+    border-left: 5px solid #c7715c;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    transition: 0.1s;
+
+}
 .card1, .card2, .card3, .card4, .card5, .card6{
     background-color: #AFDDE5;
     border-radius: 12px;
@@ -220,7 +243,25 @@ button:hover{
     display: flex;
     padding: 15px;
     flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    transition: 0.1s;
+    
 }
+.cardside{
+ 
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#cd:hover{
+    scale: 1.005;
+
+}
+
 #lowerIcons{
     height: 17px;
     width: 17px;
@@ -234,6 +275,9 @@ button:hover{
     display: flex;
     justify-content: end;
     gap: 15px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }
 .cardText{
     margin-bottom: 20px;
